@@ -1,0 +1,170 @@
+/* general settings */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+  background-color: #ffe2b0;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+/* **************************** */
+
+/* HEADER */
+
+.header__logo {
+  text-align: center;
+}
+.logo-img {
+  width: 235px;
+  height: 100px;
+}
+.header__nav-menu {
+  text-align: center;
+}
+.header__nav-menu-list {
+  display: inline-block;
+  padding: 20px 5px 20px 5px;
+}
+.header__nav-menu-list li {
+  display: inline-block;
+  margin-right: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header__nav-menu-list a:hover {
+  color: red;
+}
+.header__nav-menu-list li:last-child {
+  margin-right: 0;
+}
+/* SECTION SPECIAL OFFER */
+.special-offer {
+  min-height: 640px;
+  background-image: url("../img/offer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+.offer-content {
+  position: relative;
+  top: 350px;
+  left: 53%;
+  max-width: 420px;
+  min-height: 190px;
+  background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+  padding: 10px;
+
+}
+.offer-content__text {
+  border: 2px solid black;
+}
+.offer-content__title {
+  text-align: center;
+  padding: 17px 0 10px 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+.offer-content__text p {
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 400;
+  padding: 0 28px 10px 28px;
+}
+/* SECTION BAKERY ASSEMBLE */
+.description-block__bakery-assortment {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.description-block__bakery-assortment img {
+  display: inline-block;
+  width: 290px;
+  height: 290px;
+  margin-right: 75px;
+}
+.description-block__bakery-assortment img:last-child {
+  margin-right: 0;
+}
+.description-block__content-title {
+  text-align: center;
+  font-size: 96px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.description-block__content-title .accent {
+  color: red;
+}
+.description-block__content-text {
+  text-align: justify;
+  margin: 0 auto 20px auto;
+  max-width: 900px;
+}
+.description-block__order-link {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto 20px auto;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.description-block__order-link:hover {
+  color: red;
+}
+.description-block__map {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+.description-block__under-line {
+  max-width: 1024px;
+  height: 1px;
+  color: #999999;
+  margin: 0 auto 0 auto;
+}
+/* FOOTER */
+.footer__nav-menu {
+  text-align: center;
+}
+
+.footer__nav-menu-list {
+  display: inline-block;
+  padding: 20px 5px 20px 5px;
+}
+
+.footer__nav-menu-list li {
+  display: inline-block;
+  margin-right: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__nav-menu-list a:hover {
+  color: red;
+}
+
+.footer__nav-menu-list li:last-child {
+  margin-right: 0;
+}
